@@ -1,31 +1,51 @@
-# Project 2 - *Flixter app DEMO*
+# Project 2 - *Flixster*
 
-**Flixter app** is an app that helps you to see an abstract of diferent movies in a list of it.
+**Flixster** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Submitted by: **Diego de Jesus Torres Serrato**
-
-Time spent: **16** hours spent in total
+Time spent: **`18`** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [x] User can **view a list of movies**
-* [] User can **flip their phone** and the app adapts to this movement
-* [] User can touch in a movie to see its rank score and more details about it
+* [x] User can **scroll through current movies** from the Movie Database API
+* [x] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+* [x] For each movie displayed, user can see the following details:
+  * [x] Title, Poster Image, Overview (Portrait mode)
+  * [x] Title, Backdrop Image, Overview (Landscape mode)
+* [x] Allow user to view details of the movie including ratings within a separate activity
+
+The following **stretch** features are implemented:
+
+* [ ] Improved the user interface by experimenting with styling and coloring.
+* [ ] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
+* [ ] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
+* [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
+
+The following **additional** features are implemented:
+
+* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
-*In progress...*
+Here's a walkthrough of implemented user stories:
+
+<img src='./walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](https://getkap.co/).
 
 ## Notes
 
-Because of tech issues (Network wasn´t working), I couldn't finish all the activities neither the walkthrough. I will do extra work this weekend to compense the this dead time
+Describe any challenges encountered while building the app.
 
+## Open-source libraries used
+
+- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
 ## License
 
-    Copyright [2021] [Diego Torres]
+    Copyright 2021 Diego Torres
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
